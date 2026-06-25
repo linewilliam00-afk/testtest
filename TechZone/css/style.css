@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+.top-social-bar {
+    background-color: #555b5456;
+    color: #010f07;
+    padding: 10px 0;
+    
+}
+
+.bar-text {
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    display: flex;
+    max-width: 150px;
+    height: auto;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.right-section {
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+.whish-list {
+    margin-right: 20px;
+    color: #010f07;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.whish-list:hover img {
+    filter: drop-shadow(0 0 10px red);
+    transform: scale(1.2);
+}
+
+.whish-list img {
+    width: 100%;
+    height: auto;
+    transition: 0.3s ease-in-out;
+}
+.user {
+    margin-right: 10px;
+    color: #010f07;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: right;
+}
+
+
+.sign-in {
+    color: #000000; 
+    transition: 0.3s ease-in-out;
+}
+.sign-in:hover {
+    color: #046dff; 
+    cursor: pointer;
+    transform: scale(1.2);
+    
+}
+.welcome-image {
+    width: 200px;
+    height: auto;
+    float: right;
+    margin-right: 50px;
+}
+.nav-bar {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+.laptop, .desktop, .accessories {
+    text-align: center;
+    padding: 10px;
+    transition: 0.3s ease-in-out;
+}
+.laptop:hover, .desktop:hover, .accessories:hover {
+    color: #130fde;
+}
+.laptop-preview{
+    align-items: center;
+    width: 200px;
+    height: 500px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    gap: px;
+}
+.card-img{
+    aspect-ratio: 4/ 3;
+  width: 100%;
+}
+.laptop-name {
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+.laptop-price {
+    font-size: 16px;
+    margin-top: 5px;
+    text-align: center;
+    color: #ff0000;
+}
+.info{
+    margin-left: 20px;
+    
+}
+.checkout{
+    position: fixed;
+    bottom: 50px;      
+    right: 55px;       
+    z-index: 999;
+    border: 2px solid #13e7e3;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease-in-out;
+}
+.checkout:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    background-color: #13e7e3;
+}
